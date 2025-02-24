@@ -1,0 +1,26 @@
+{
+    "entry_point": "nearest_neighbor_tsp_solver:NearestNeighborTSPSolver",
+    "default_params": {
+        "start_city": 0
+    },
+    "optimizer_type": "Nearest Neighbor TSP Solver",
+    "description": "TSP solver using the nearest neighbor heuristic. The solver starts at a given city and iteratively selects the nearest & cheapest unvisited city to construct a complete tour.",
+    "compatible_problems": [
+        "Traveling Salesman Problem"
+    ],
+    "parameters": {
+        "start_city": {
+            "type": "int",
+            "description": "Index of the starting city."
+        }
+    },
+    "requirements": [
+        "qubots"
+    ],
+    "keywords": [
+        "nearest neighbor",
+        "TSP",
+        "heuristic",
+        "greedy"
+    ]
+}
