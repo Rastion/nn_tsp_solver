@@ -3,10 +3,12 @@
     "default_params": {
         "start_city": 0
     },
-    "optimizer_type": "Nearest Neighbor TSP Solver",
+    "creator": "Rastion",
+    "type": "optimizer",
+    "optimizer_name": "Nearest Neighbor TSP Solver",
     "description": "TSP solver using the nearest neighbor heuristic. The solver starts at a given city and iteratively selects the nearest & cheapest unvisited city to construct a complete tour.",
     "compatible_problems": [
-        "Traveling Salesman Problem"
+        "Rastion/traveling_salesman_problem"
     ],
     "parameters": {
         "start_city": {
